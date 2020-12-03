@@ -1,0 +1,13 @@
+{
+    "name": "spitfire/exception",
+    "description": "Exception interfaces for spitfire",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "César de la Cal Bretschneider",
+            "email": "cesar@magic3w.com"
+        }
+    ],
+    "require": {}
+}
