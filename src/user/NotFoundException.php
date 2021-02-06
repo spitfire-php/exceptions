@@ -10,7 +10,8 @@ use spitfire\exceptions\PublicExceptionInterface;
 class NotFoundException extends ExceptionsNotFoundException implements PublicExceptionInterface
 {
 
-    public function httpCode() {
+	public function httpCode() : int
+	{
         return 404;
     }
 }

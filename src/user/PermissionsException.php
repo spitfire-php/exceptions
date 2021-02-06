@@ -10,7 +10,7 @@ use spitfire\exceptions\PublicExceptionInterface;
 class PermissionsException extends ExceptionsPermissionsException implements PublicExceptionInterface
 {
 
-    public function httpCode()
+    public function httpCode() : int
     {
         return 403;
     }
